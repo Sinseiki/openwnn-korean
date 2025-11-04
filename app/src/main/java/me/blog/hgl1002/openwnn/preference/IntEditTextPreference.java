@@ -21,15 +21,17 @@ public class IntEditTextPreference extends EditTextPreference {
 
     @Override
     protected String getPersistedString(String defaultReturnValue) {
-        return String.valueOf(getPersistedInt(-1));
+        int value = getPersistedInt(-1);
+        if(value == -1) return defaultReturnValue;
+        return String.valueOf(value);
     }
 
     @Override
     protected boolean persistString(String value) {
         try {
-        	return persistInt(Integer.valueOf(value));
+            return persistInt(Integer.parseInt(value));
         } catch(NumberFormatException e) {
-        	return false;
+            return false;
         }
     }
 }
