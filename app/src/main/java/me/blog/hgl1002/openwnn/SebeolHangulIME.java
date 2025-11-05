@@ -258,8 +258,8 @@ public class SebeolHangulIME extends InputMethodService implements HangulEngineL
 					wm.getDefaultDisplay().getWidth(),
 					wm.getDefaultDisplay().getHeight());
 
-			view.setFitsSystemWindows(true);
-			if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) updateNavigationBar();
+//			view.setFitsSystemWindows(true);
+//			if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) updateNavigationBar();
 
 			return view;
 		} else {
