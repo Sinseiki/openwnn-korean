@@ -124,6 +124,20 @@
 		<item>pc1</item>
 	</string-array>
 
+	<string-array name="keyboard_soft_layout_l3_0">
+		<item>@string/preference_keyboard_l3_0</item>
+		<item>@string/preference_keyboard_l1_2</item>
+		<item>@string/preference_keyboard_l2_0</item>
+		<item>@string/preference_keyboard_pc1</item>
+	</string-array>
+
+	<string-array name="keyboard_soft_layout_l3_0_id">
+		<item>l3.0</item>
+		<item>l1.2</item>
+		<item>l2.0</item>
+		<item>pc1</item>
+	</string-array>
+
 	<string-array name="keyboard_soft_layout_dvorak">
 		<item>@string/preference_keyboard_l1_4</item>
 		<item>@string/preference_keyboard_l1_10</item>
@@ -141,6 +155,8 @@
 	<string-array name="keyboard_hangul_layout">
         <item>@string/preference_keyboard_dubul_standard</item>
         <item>@string/preference_keyboard_dubul_nk</item>
+		<item>@string/preference_keyboard_dubul_dugyeobe</item>
+		<item>@string/preference_keyboard_dubul_dujule</item>
         <item>@string/preference_keyboard_sebul_390</item>
         <item>@string/preference_keyboard_sebul_391</item>
         <item>@string/preference_keyboard_sebul_danmoeum</item>
@@ -162,6 +178,8 @@
     <string-array name="keyboard_hangul_layout_id">
         <item>keyboard_dubul_standard</item>
         <item>keyboard_dubul_nk</item>
+		<item>keyboard_dubul_dugyeobe</item>
+		<item>keyboard_dubul_dujule</item>
         <item>keyboard_sebul_390</item>
         <item>keyboard_sebul_391</item>
         <item>keyboard_sebul_danmoeum</item>
