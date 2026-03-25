@@ -259,7 +259,7 @@ public class SebeolHangulIME extends InputMethodService implements HangulEngineL
 					wm.getDefaultDisplay().getHeight());
 
 //			view.setFitsSystemWindows(true);
-//			if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) updateNavigationBar();
+			if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) updateNavigationBar();
 
 			return view;
 		} else {
@@ -1080,8 +1080,9 @@ public class SebeolHangulIME extends InputMethodService implements HangulEngineL
 
 		getWindow().getWindow().getDecorView().setOnApplyWindowInsetsListener((view, insets) -> {
 			android.graphics.Insets statusBarInsets = insets.getInsets(WindowInsets.Type.statusBars());
+			android.graphics.Insets navInsets = insets.getInsets(WindowInsets.Type.navigationBars());
 			view.setBackground(keyboardView.getBackground());
-			view.setPadding(0, statusBarInsets.top, 0, 0);
+			view.setPadding(0, statusBarInsets.top, 0, navInsets.bottom);
 			return insets;
 		});
 	}
