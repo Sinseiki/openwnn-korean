@@ -44,7 +44,7 @@ import static me.blog.hgl1002.openwnn.layout.LayoutGongSebul.JAMO_SEBUL_SUN_2014
 import static me.blog.hgl1002.openwnn.layout.LayoutMoachigiSebul.COMB_SEBUL_AHNMATAE;
 import static me.blog.hgl1002.openwnn.layout.LayoutMoachigiSebul.COMB_SEBUL_SEMOE;
 import static me.blog.hgl1002.openwnn.layout.LayoutMoachigiSebul.JAMO_SEBUL_AHNMATAE;
-import static me.blog.hgl1002.openwnn.layout.LayoutMoachigiSebul.JAMO_SEBUL_SEMOE_2016;
+import static me.blog.hgl1002.openwnn.layout.LayoutMoachigiSebul.JAMO_SEBUL_SEMOE;
 import static me.blog.hgl1002.openwnn.layout.LayoutShinSebul.COMB_SEBUL_3_2015;
 import static me.blog.hgl1002.openwnn.layout.LayoutShinSebul.COMB_SEBUL_3_P3;
 import static me.blog.hgl1002.openwnn.layout.LayoutShinSebul.COMB_SEBUL_SHIN_ORIGINAL;
@@ -78,10 +78,8 @@ public enum EngineMode {
 
 	SEBUL_AHNMATAE	(new Properties(true, false, false, false),
 			JAMO_SEBUL_AHNMATAE, null, COMB_SEBUL_AHNMATAE, null, "keyboard_sebul_ahnmatae"),
-	SEBUL_SEMOE_2016(new Properties(true, false, false, false),
-			JAMO_SEBUL_SEMOE_2016, null, COMB_SEBUL_SEMOE, null, "keyboard_sebul_semoe_2016"),
 	SEBUL_SEMOE		(new Properties(true, false, false, false),
-			JAMO_SEBUL_SEMOE_2016, null, COMB_SEBUL_SEMOE, null, "keyboard_sebul_semoe"),
+			JAMO_SEBUL_SEMOE, null, COMB_SEBUL_SEMOE, null, "keyboard_sebul_semoe"),
 
 	NEBUL_1969(new Properties(), JAMO_NEBUL_1969, null, COMB_NEBUL_1969, null, "keyboard_nebul_1969"),
 

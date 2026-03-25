@@ -78,7 +78,6 @@ public class SoftLayoutPreference extends ListPreference {
 			return R.array.keyboard_soft_layout_alt;
 
 		case "keyboard_alphabet_qwerty":
-		case "keyboard_sebul_semoe_2016":
 		case "keyboard_sebul_semoe":
 		case "keyboard_sebul_danmoeum":
 		case "keyboard_dubul_standard":
@@ -122,7 +121,6 @@ public class SoftLayoutPreference extends ListPreference {
 			return R.array.keyboard_soft_layout_alt_id;
 
 		case "keyboard_alphabet_qwerty":
-		case "keyboard_sebul_semoe_2016":
 		case "keyboard_sebul_semoe":
 		case "keyboard_sebul_danmoeum":
 		case "keyboard_dubul_standard":
