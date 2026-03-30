@@ -168,6 +168,8 @@
         <item>@string/preference_keyboard_sebul_shin_edit</item>
         <item>@string/preference_keyboard_sebul_shin_m</item>
         <item>@string/preference_keyboard_sebul_shin_p2</item>
+		<item>@string/preference_keyboard_sebul_chamshin</item>
+		<item>@string/preference_keyboard_sebul_chamshin_d</item>
         <item>@string/preference_keyboard_sebul_ahnmatae</item>
         <item>@string/preference_keyboard_sebul_semoe</item>
         <item>@string/preference_keyboard_dubul_yet</item>
@@ -191,6 +193,8 @@
         <item>keyboard_sebul_shin_edit</item>
         <item>keyboard_sebul_shin_m</item>
         <item>keyboard_sebul_shin_p2</item>
+		<item>keyboard_sebul_chamshin</item>
+		<item>keyboard_sebul_chamshin_d</item>
         <item>keyboard_sebul_ahnmatae</item>
         <item>keyboard_sebul_semoe</item>
         <item>keyboard_dubul_yet</item>

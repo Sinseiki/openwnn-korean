@@ -169,6 +169,8 @@
     <string name="preference_keyboard_sebul_shin_edit">Shin Sebeolsik 2003 Edited by Park Gyeongnam</string>
     <string name="preference_keyboard_sebul_shin_m">Shin Sebeolsik M by Metalliza</string>
     <string name="preference_keyboard_sebul_shin_p2">Shin Sebeolsik P2 by Pat-al (Traditional Hangul available)</string>
+    <string name="preference_keyboard_sebul_chamshin">Chamshin Sebeolsik by Gong Bin</string>
+    <string name="preference_keyboard_sebul_chamshin_d">Chamshin Sebeolsik D by Gong Bin</string>
     <string name="preference_keyboard_sebul_ahnmatae">Moachigi Sebeolsik Ahnmatae Keyboard</string>
     <string name="preference_keyboard_sebul_semoe">Moachigi Sebeolsik Semo-e by Shin Segi</string>
     <string name="preference_keyboard_dubul_yet">Traditional Hangul Dubeolsik</string>

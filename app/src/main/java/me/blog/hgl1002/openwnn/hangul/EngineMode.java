@@ -51,6 +51,7 @@ import static me.blog.hgl1002.openwnn.layout.LayoutMoachigiSebul.JAMO_SEBUL_SEMO
 import static me.blog.hgl1002.openwnn.layout.LayoutShinSebul.COMB_SEBUL_3_2015;
 import static me.blog.hgl1002.openwnn.layout.LayoutShinSebul.COMB_SEBUL_3_P3;
 import static me.blog.hgl1002.openwnn.layout.LayoutShinSebul.COMB_SEBUL_SHIN_ORIGINAL;
+import static me.blog.hgl1002.openwnn.layout.LayoutShinSebul.COMB_SEBUL_CHAMSHIN;
 import static me.blog.hgl1002.openwnn.layout.LayoutShinSebul.JAMOSET_SEBUL_3_2015;
 import static me.blog.hgl1002.openwnn.layout.LayoutShinSebul.JAMOSET_SEBUL_3_2015M;
 import static me.blog.hgl1002.openwnn.layout.LayoutShinSebul.JAMOSET_SEBUL_3_P3;
@@ -58,6 +59,8 @@ import static me.blog.hgl1002.openwnn.layout.LayoutShinSebul.JAMOSET_SHIN_EDIT;
 import static me.blog.hgl1002.openwnn.layout.LayoutShinSebul.JAMOSET_SHIN_M;
 import static me.blog.hgl1002.openwnn.layout.LayoutShinSebul.JAMOSET_SHIN_ORIGINAL;
 import static me.blog.hgl1002.openwnn.layout.LayoutShinSebul.JAMOSET_SHIN_P2;
+import static me.blog.hgl1002.openwnn.layout.LayoutShinSebul.JAMOSET_CHAMSHIN;
+import static me.blog.hgl1002.openwnn.layout.LayoutShinSebul.JAMOSET_CHAMSHIN_D;
 import static me.blog.hgl1002.openwnn.layout.LayoutShinSebul.JAMO_SEBUL_3_2015Y;
 
 public enum EngineMode {
@@ -80,6 +83,8 @@ public enum EngineMode {
 	SEBUL_SHIN_EDIT		(new Properties(), null, JAMOSET_SHIN_EDIT, COMB_SEBUL_SHIN_ORIGINAL, null, "keyboard_sebul_shin_edit"),
 	SEBUL_SHIN_M		(new Properties(), null, JAMOSET_SHIN_M, COMB_SEBUL_SHIN_ORIGINAL, null, "keyboard_sebul_shin_m"),
 	SEBUL_SHIN_P2		(new Properties(), null, JAMOSET_SHIN_P2, COMB_FULL, null, "keyboard_sebul_shin_p2"),
+	SEBUL_CHAMSHIN		(new Properties(), null, JAMOSET_CHAMSHIN, COMB_SEBUL_CHAMSHIN, null, "keyboard_sebul_chamshin"),
+	SEBUL_CHAMSHIN_D		(new Properties(), null, JAMOSET_CHAMSHIN_D, COMB_SEBUL_CHAMSHIN, null, "keyboard_sebul_chamshin_d"),
 
 	SEBUL_AHNMATAE	(new Properties(true, false, false, false),
 			JAMO_SEBUL_AHNMATAE, null, COMB_SEBUL_AHNMATAE, null, "keyboard_sebul_ahnmatae"),
