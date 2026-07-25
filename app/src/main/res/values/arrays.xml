@@ -245,12 +245,14 @@
     	<item>@string/preference_keyboard_alphabet_qwerty</item>
     	<item>@string/preference_keyboard_alphabet_dvorak</item>
     	<item>@string/preference_keyboard_alphabet_colemak</item>
+		<item>@string/preference_keyboard_alphabet_rose</item>
     </string-array>
 
     <string-array name="keyboard_alphabet_layout_id">
     	<item>keyboard_alphabet_qwerty</item>
     	<item>keyboard_alphabet_dvorak</item>
     	<item>keyboard_alphabet_colemak</item>
+		<item>keyboard_alphabet_rose</item>
     </string-array>
 
     <string-array name="keyboard_12key_alphabet_layout">

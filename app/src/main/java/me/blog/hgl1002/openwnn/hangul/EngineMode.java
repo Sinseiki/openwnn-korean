@@ -19,6 +19,7 @@ import static me.blog.hgl1002.openwnn.layout.Layout12KeySebul.CYCLE_SEBUL_12KEY_
 import static me.blog.hgl1002.openwnn.layout.Layout12KeySebul.STROKE_SEBUL_12KEY_HANSON;
 import static me.blog.hgl1002.openwnn.layout.Layout12KeySebul.STROKE_SEBUL_12KEY_MUNHWA;
 import static me.blog.hgl1002.openwnn.layout.Layout12KeySebul.STROKE_SEBUL_12KEY_SENA;
+import static me.blog.hgl1002.openwnn.layout.LayoutAlphabet.CONVERT_ENGLISH_ROSE;
 import static me.blog.hgl1002.openwnn.layout.LayoutAlphabet.CONVERT_ENGLISH_COLEMAK;
 import static me.blog.hgl1002.openwnn.layout.LayoutAlphabet.CONVERT_ENGLISH_DVORAK;
 import static me.blog.hgl1002.openwnn.layout.LayoutAlphabet.CYCLE_12KEY_ALPHABET_A;
@@ -127,6 +128,8 @@ public enum EngineMode {
 			CONVERT_ENGLISH_DVORAK, null, null, null, "keyboard_alphabet_dvorak"),
 	ENGLISH_COLEMAK	(new Properties(DefaultSoftKeyboard.LANG_EN, false, false, false, false, false, false),
 			CONVERT_ENGLISH_COLEMAK, null, null, null, "keyboard_alphabet_colemak"),
+	ENGLISH_ROSE	(new Properties(DefaultSoftKeyboard.LANG_EN, false, false, false, false, false, false),
+			CONVERT_ENGLISH_ROSE, null, null, null, "keyboard_alphabet_rose"),
 
 	SYMBOLS_A(new Properties(true, false, false, false, false, false),
 			LayoutSymbol.SYMBOL_A, null, null, null, "keyboard_symbols_a"),
