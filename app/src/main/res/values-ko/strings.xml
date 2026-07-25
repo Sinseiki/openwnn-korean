@@ -154,6 +154,7 @@
     <string name="preference_keyboard_alphabet_qwerty">QWERTY</string>
     <string name="preference_keyboard_alphabet_dvorak">DVORAK</string>
     <string name="preference_keyboard_alphabet_colemak">COLEMAK</string>
+    <string name="preference_keyboard_alphabet_rose">ROS-e</string>
 
     <string name="preference_keyboard_symbols_title">기호 키보드 종류</string>
     <string name="preference_keyboard_symbols_summary">기호 키보드 종류를 설정합니다.</string>
