@@ -1,5 +1,6 @@
 package me.blog.hgl1002.openwnn.hangul;
 
+import android.util.SparseArray;
 import me.blog.hgl1002.openwnn.layout.LayoutSymbol;
 import me.blog.hgl1002.openwnn.view.DefaultSoftKeyboard;
 
@@ -50,6 +51,7 @@ import static me.blog.hgl1002.openwnn.layout.LayoutMoachigiSebul.COMB_SEBUL_AHNM
 import static me.blog.hgl1002.openwnn.layout.LayoutMoachigiSebul.COMB_SEBUL_SEMOE;
 import static me.blog.hgl1002.openwnn.layout.LayoutMoachigiSebul.JAMO_SEBUL_AHNMATAE;
 import static me.blog.hgl1002.openwnn.layout.LayoutMoachigiSebul.JAMO_SEBUL_SEMOE;
+import static me.blog.hgl1002.openwnn.layout.LayoutMoachigiSebul.SEMOE_ABBREVIATIONS;
 import static me.blog.hgl1002.openwnn.layout.LayoutShinSebul.COMB_SEBUL_3_2015;
 import static me.blog.hgl1002.openwnn.layout.LayoutShinSebul.COMB_SEBUL_3_P3;
 import static me.blog.hgl1002.openwnn.layout.LayoutShinSebul.COMB_SEBUL_SHIN_ORIGINAL;
@@ -165,6 +167,14 @@ public enum EngineMode {
 			}
 		}
 		return EngineMode.DIRECT;
+	}
+
+	public SparseArray<String> getAbbreviations() {
+		if (this == SEBUL_SEMOE) {
+			return SEMOE_ABBREVIATIONS;
+		}
+
+		return null;
 	}
 
 	public static class Properties {
